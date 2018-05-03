@@ -1,0 +1,109 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U binary%b		binary.adb		9e2e83b7 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z calendar%s		calendar.ads		calendar.ali
+W random%s		random.adb		random.ali
+
+U binary%s		binary.ads		18772409 EE NE OO PK
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D binary.ads		20180502202030 18772409 binary%s
+D binary.adb		20180503060208 1ed6410a binary%b
+D calendar.ads		20170516105950 2cb525cd calendar%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D random.ads		20180430210342 56a99ac4 random%s
+D random.adb		20180430210342 d1a21e65 random%b
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|3r6 3r19 4r5 4r18
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 12|3w23 4r22
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|3w10 4r9
+208U14*Put 12|94s13 105s13
+X 9 a-tiinio.ads
+66U14*Put 12|96s10[4|18] 107s10[4|18]
+X 11 binary.ads
+3K9*Binary 22l5 22e11 12|6b14 112l8 112t14
+6I9*BINARY_NUMBER<short_short_integer> 7r41 12|23r33
+7A9*BINARY_ARRAY(6I9)<integer> 10r35 11r35 12r49 13r45 13r66 14r28 14r67
+. 15r45 15r66 16r28 16r67 19r41 20r38 12|11r35 16r22 32r35 44r49 45r20 64r45
+. 64r66 70r28 70r67 76r45 76r66 82r28 82r67 90r41 101r38
+10V13*Generate_Array{7A9} 12|11b13 29l8 29t22
+11V13*Bin_To_Int{integer} 11>24 12|21s10 32b13 41l8 41t18 66s25 66s51 72s25
+. 78s25 78s51 84s25
+11a24 Array_In{7A9} 12|32b24 36r28 37r46
+12V13*Int_To_Bin{7A9} 12>24 12|44b13 61l8 61t18 66s14 72s14 78s14 84s14
+12i24 Int_In{integer} 12|44b24 46r24
+13V14*"+"{7A9} 13>17 13>30 12|64b14 67l9 67t11
+13a17 First_Array{7A9} 12|64b17 66r36
+13a30 Second_Array{7A9} 12|64b30 66r62
+14V14*"+"{7A9} 14>17 14>42 12|70b14 73l9 73t11
+14a17 Array_In{7A9} 12|70b17 72r36
+14i42 Int_In{integer} 12|70b42 72r48
+15V14*"-"{7A9} 15>17 15>30 12|76b14 79l9 79t11
+15a17 First_Array{7A9} 12|76b17 78r36
+15a30 Second_Array{7A9} 12|76b30 78r62
+16V14*"-"{7A9} 16>17 16>42 12|82b14 85l9 85t11
+16a17 Array_In{7A9} 12|82b17 84r36
+16i42 Int_In{integer} 12|82b42 84r48
+19U14*Reverse_Bin_Arr 19>30 12|90b14 98l8 98t23
+19a30 Array_In{7A9} 12|90b30 92r28 96r22
+20U14*Print_Bin_Arr 20>28 12|101b14 110l8 110t21
+20a28 Array_In{7A9} 12|101b28 103r20 107r22
+X 12 binary.adb
+13K15 My_Random[16|27] 14r11
+16a7 Random_Array{11|7A9} 21r21 22r20 23m10 27r14
+22i11 Index{integer} 23r23
+33i7 Exponent{integer} 37r71 38m10 38r22
+34i7 Conversion{integer} 37m10 37r24 40r14
+36i11 Index{integer} 37r55
+45a7 Conversion{11|7A9} 48r28 50m13 54m13 60r14
+46i7 Int{integer} 49r13 51m13 51r20 55m13 55r21
+48i11 Index{integer} 50r24 54r24
+92i11 Index{integer} 93r14 93r30 96r31
+103i11 Index{integer} 104r14 104r28 107r31
+X 16 random.ads
+27k9*Random 12|3w40 13r32 16|42e11
+30U14 Set_Seed 12|19s7[13]
+40V13 Random_Number{float} 12|23s47[13]
+

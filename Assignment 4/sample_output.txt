@@ -1,0 +1,37 @@
+D:\Dropbox\auburn_faculty\ada_programs\binary_assignment\main
+Printing Random Array My_Array
+0010 1110 1110 1101 
+
+Printing Integer value of My_Array
+12013
+
+Printing Array created from Int_To_Bin function: Int_To_Bin(55);
+0000 0000 0011 0111 
+
+Printing value of My_Array + Another_Array, first + overload
+Int value of My_Array: 12013
+Int value of Another_Array:    55
+Int value of Array3: 12068
+Binary value of Array3: 0010 1111 0010 0100 
+
+Printing value of Int_To_Bin(10) + Array3, second + overload
+Int value of Array3 after addition: 12078
+Current binary value of Array3: 0010 1111 0010 1110 
+
+Printing value of My_Array - Another_Array, first - overload
+Int value of My_Array: 12013
+Int value of Another_Array:    55
+Int value of Array 4 (Note, this value will be incorrect if first number is smaller than second): 11958
+Binary value of Array 4
+0010 1110 1011 0110 
+
+Printing value of Int_To_Bin(16384) - My_Array, second - overload
+Int value of My_Array: 12013
+Int value of Array4 after modification:  4371
+Binary value of Array4
+0001 0001 0001 0011 
+
+Reversing and printing Array4
+1100 1000 1000 1000 
+
+[2017-04-17 11:05:33] process terminated successfully, elapsed time: 00.26s
